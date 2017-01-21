@@ -1,5 +1,5 @@
-require './board.rb'
-require './judge.rb'
+require_relative './board.rb'
+require_relative './judge.rb'
 
 class Game
   attr_reader :result
