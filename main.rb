@@ -1,6 +1,5 @@
-require './board.rb'
-require './game.rb'
-require './cli_view.rb'
+require_relative './lib/game.rb'
+require_relative './lib/cli_view.rb'
 
 game = Game.new
 cli_view = CLIView.new(game)
